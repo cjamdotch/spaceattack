@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Windows</title>
+    <title>Games</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b039289ed2.js" crossorigin="anonymous"></script>
@@ -13,6 +13,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<script>
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+  }
+  </script>
 
 </head>
 <style>
@@ -37,18 +42,17 @@
               <a class="nav-link" href="/services/dev/plugins.html">Plugins</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/services/dev/plugins.html">Tools</a>
+              <a class="nav-link active" href="/services/dev/plugins.html">Tools</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/services/dev/mobile.html">Mobile</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/services/dev/desktop.html">Desktop</a>
+              <a class="nav-link" href="/services/dev/desktop.html">Desktop</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/services/dev/game-engine.html">Game Engine</a>
             </li>
-
           </ul>
         </div>
         <div class="row">
@@ -64,70 +68,74 @@
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
-                    <div id="carouselExampleIndicators" class="carousel slide">
-                      <div class="carousel-indicators">
-
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <div class="div p-3">
+                      <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+  
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/projects/phayao-businesses/thumbnail/phayao-business-tn.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Phayao Businesses</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
                       </div>
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
-                          <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
-                          <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
-                          <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
                     </div>
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneR1" aria-expanded="true" aria-controls="collapseOneR1">
-                      Info
+                      Code Snippet Manager
                     </button>
                   </h2>
                   <div id="collapseOneR1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <b>Description</b>
+                      <p>A code snippet manager is a tool used by developers to store, organize, and retrieve code snippets. It allows developers to quickly access commonly used code snippets, reducing the time and effort required to write or search for code. The manager usually comes with features such as syntax highlighting, search ability, and tagging to help make it easier to find the code snippet required. Often, code snippet managers are integrated with code editors and are essential for improving developer productivity. Popular code snippet managers include Snippet Lab, CodeBox, and Alfred.</p>
+                      <b>Client</b>
+                      <br>
+                      <p>SpaceAttackCo</p>
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoR1" aria-expanded="false" aria-controls="collapseTwoR1">
-                      Description
+                      Details
                     </button>
                   </h2>
                   <div id="collapseTwoR1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <h5>Heading</h5>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur, accusantium expedita sunt odio repellendus dolorem corrupti nobis ipsam recusandae soluta, adipisci vero quam aut vel sapiente facere. Obcaecati doloribus sequi nulla iure ab doloremque alias error voluptas. Sequi vel inventore voluptates vero dolores itaque doloremque in. Perferendis, temporibus ab.
-                    <hr>
-                    <table class="table table-hover">
+                    <table class="table">
 
                         <tr>
-                          <td>J.D</td>
-                          <td>Graphic Design</td>
-                          <td style="text-align: right;"><button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i></i></button> <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-envelope"></i></button></td>
+                          <td style="text-align: left;">Cleo</td>
+                          <td style="text-align: left;">General</td>
+                          <td style="text-align: right;"><a href="mailto:cjamdotch@gmail.com" type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-envelope" > </i></a></td>
                         </tr>
+
                      
                     </table>
                     </div>
@@ -146,59 +154,75 @@
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
-                    <div id="carouselExampleIndicatorsR1A" class="carousel slide">
-                      <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicatorsR1A" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicatorsR1A" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicatorsR1A" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <div class="div p-3">
+                      <div id="carouselExampleIndicatorsR1A" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicatorsR1A" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicatorsR1A" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicatorsR1A" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/projects/phayao-content-creators/thumbnail/phayao-business-tn.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Phayao Content Creators</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsR1A" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsR1A" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
                       </div>
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
-                        </div>
-                      </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsR1A" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsR1A" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
                     </div>
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneR1A" aria-expanded="true" aria-controls="collapseOneR1A">
-                      Info
+                      Phayao Content Creators
                     </button>
                   </h2>
                   <div id="collapseOneR1A" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <b>Directory</b>
+                      <p>Online Directory for A City in Thailand. Overview of Content Creators. The Website is build on a Simple Bootstrap Framwork and is otherwise just plain Hardcoded.</p>
+                      <b>Client</b>
+                    <p>SpaceAttackCo</p>
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwoR1A">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoR1A" aria-expanded="false" aria-controls="collapseTwoR1A">
-                      Description
+                      Details
                     </button>
                   </h2>
                   <div id="collapseTwoR1A" class="accordion-collapse collapse" aria-labelledby="headingTwoR1A" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <h5>Heading</h5>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur, accusantium expedita sunt odio repellendus dolorem corrupti nobis ipsam recusandae soluta, adipisci vero quam aut vel sapiente facere. Obcaecati doloribus sequi nulla iure ab doloremque alias error voluptas. Sequi vel inventore voluptates vero dolores itaque doloremque in. Perferendis, temporibus ab.
-                    <hr>
-                    <table class="table table-hover">
+                      <table class="table">
 
                         <tr>
-                          <td>J.D</td>
-                          <td>Graphic Design</td>
-                          <td style="text-align: right;"><button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i></i></button> <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-envelope"></i></button></td>
+                          <td style="text-align: left;">Cleo</td>
+                          <td style="text-align: left;">General</td>
+                          <td style="text-align: right;"><a href="mailto:cjamdotch@gmail.com" type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-envelope" > </i></a></td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left;">Sopit</td>
+                          <td style="text-align: left;">General</td>
+                          <td style="text-align: right;"><a href="mailto:peemee8a@gmail.com" type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-envelope" > </i></a></td>
                         </tr>
                      
                     </table>
@@ -219,59 +243,75 @@
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
-                    <div id="carouselExampleIndicatorsR1B" class="carousel slide">
-                      <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicatorsR1B" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicatorsR1B" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicatorsR1B" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <div class="div p-3">
+                      <div id="carouselExampleIndicatorsR1B" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicatorsR1B" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicatorsR1B" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicatorsR1B" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/projects/dreamcatcher/thumbnail/dreamcatcher-tn.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Dreamcatcher</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsR1B" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsR1B" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
                       </div>
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
-                        </div>
-                      </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsR1B" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsR1B" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
                     </div>
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneR1B" aria-expanded="true" aria-controls="collapseOneR1B">
-                      Info
+                      Dreamcatcher
                     </button>
                   </h2>
                   <div id="collapseOneR1B" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <b>Description</b>
+                      <p>The Audio Sleep Story Alarm is an innovative device that helps you fall asleep and wake up peacefully. It features a variety of calming bedtime stories and lullabies to help you drift off to sleep. When it's time to wake up, the device gently starts playing a chosen alarm sound, gradually getting louder to avoid any sudden jolts out of sleep. The Audio Sleep Story Alarm is a perfect addition to your bedtime routine to help you relax and wake up rested and refreshed.</p>
+                      <b>Client</b>
+                      <p>SpaceAttackCo</p>
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwoR1B">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoR1B" aria-expanded="false" aria-controls="collapseTwoR1B">
-                      Description
+                      Details
                     </button>
                   </h2>
                   <div id="collapseTwoR1B" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <h5>Heading</h5>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur, accusantium expedita sunt odio repellendus dolorem corrupti nobis ipsam recusandae soluta, adipisci vero quam aut vel sapiente facere. Obcaecati doloribus sequi nulla iure ab doloremque alias error voluptas. Sequi vel inventore voluptates vero dolores itaque doloremque in. Perferendis, temporibus ab.
-                    <hr>
-                    <table class="table table-hover">
+                      <table class="table">
 
                         <tr>
-                          <td>J.D</td>
-                          <td>Graphic Design</td>
-                          <td style="text-align: right;"><button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i></i></button> <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-envelope"></i></button></td>
+                          <td style="text-align: left;">Cleo</td>
+                          <td style="text-align: left;">General</td>
+                          <td style="text-align: right;"><a href="mailto:cjamdotch@gmail.com" type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-envelope" > </i></a></td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left;">Sopit</td>
+                          <td style="text-align: left;">General</td>
+                          <td style="text-align: right;"><a href="mailto:peemee8a@gmail.com" type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-envelope" > </i></a></td>
                         </tr>
                      
                     </table>
@@ -284,7 +324,7 @@
 
 
 
-             <!-- SPACING -->
+             <!-- SPACING 
 
 
 
@@ -301,12 +341,21 @@
                       <div class="carousel-inner">
                         <div class="carousel-item active">
                           <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Phayao Businesses</h5>
+                          </div>
                         </div>
                         <div class="carousel-item">
                           <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                          </div>
                         </div>
                         <div class="carousel-item">
                           <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                          </div>
                         </div>
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsR1C" data-bs-slide="prev">
@@ -354,7 +403,16 @@
               </div>
             </div>
 
-    </div>
+
+
+
+-->
+
+
+       
+
+        
+
     </div>
 </body>
 </html>
